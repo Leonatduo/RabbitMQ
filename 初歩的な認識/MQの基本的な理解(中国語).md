@@ -78,3 +78,21 @@
 - 调试维护难度增加  
 - 消息一致性挑战  
 
+# 1.3 消息队列对比
+
+消息Broker，目前常见的实现方案就是消息队列（MessageQueue），简称为MQ。
+
+## 常见MQ实现
+- ActiveMQ
+- RabbitMQ
+- RocketMQ
+- Kafka
+
+## 对比维度
+
+| 维度         | 推荐方案                          |
+|--------------|----------------------------------|
+| 可用性       | Kafka、RocketMQ、RabbitMQ        |
+| 可靠性       | RabbitMQ、RocketMQ               |
+| 吞吐能力     | RocketMQ、Kafka                  |
+| 消息低延迟   | RabbitMQ、Kafka                  |
