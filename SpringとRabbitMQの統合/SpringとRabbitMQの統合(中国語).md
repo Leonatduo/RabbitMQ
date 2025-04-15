@@ -108,3 +108,10 @@ public class SpringRabbitListener {
   }
 }
 ```
+
+### 5. テスト手順
+Consumerサービスを起動
+
+Publisherのテストケースを実行
+
+Consumerコンソールで以下の出力を確認
